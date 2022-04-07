@@ -20,9 +20,24 @@ class ContactPage extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text("Nama   : Mohammad Dyvani Wahyu Wildana"),
-                Text("Alamat : Dusun Krajan, RT/RW 003/006, Desa Tembokrejo, Kecamatan Muncar, Banyuwangi"),
-                Text("Email  : mdyvani@gamil.com"),
+                Row(
+                  children: [
+                    Text("Nama   : ", style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text("Mohammad Dyvani Wahyu Wildana"),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Text("Alamat : ", style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text("Dusun Krajan, RT/RW 003/006, Desa Tembokrejo, Kecamatan Muncar, Banyuwangi"),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Text("Email : ", style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text("mdyvani@gmail.com"),
+                  ],
+                ),
               ],
             ),
           ),
