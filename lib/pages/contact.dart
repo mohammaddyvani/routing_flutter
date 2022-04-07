@@ -34,7 +34,7 @@ class ContactPage extends StatelessWidget {
                 ),
                 Row(
                   children: [
-                    Text("Email   : ", style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text("Email    : ", style: TextStyle(fontWeight: FontWeight.bold)),
                     Text("mdyvani@gmail.com"),
                   ],
                 ),
