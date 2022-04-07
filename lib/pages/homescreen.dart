@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, '/about');
                 },
-                child: Text("ABOUT"),
+                child: Text("About"),
               ),
             ),
             Padding(
@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, '/portofolio');
                 },
-                child: Text("PORTOFOLIO"),
+                child: Text("Portofolio"),
               ),
             ),
             Padding(
@@ -36,7 +36,7 @@ class HomePage extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, '/contact');
                 },
-                child: Text("CONTACT"),
+                child: Text("Contact"),
               ),
             ),
           ],
