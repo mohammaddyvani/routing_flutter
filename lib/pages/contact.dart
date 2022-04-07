@@ -16,7 +16,7 @@ class ContactPage extends StatelessWidget {
         child: Card(
           elevation: 5,
           child: Padding(
-            padding: EdgeInsets.all(5),
+            padding: EdgeInsets.fromLTRB(7, 10, 7, 10),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
