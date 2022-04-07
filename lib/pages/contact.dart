@@ -16,7 +16,7 @@ class ContactPage extends StatelessWidget {
         child: Card(
           elevation: 5,
           child: Padding(
-            padding: EdgeInsets.fromLTRB(7, 10, 7, 10),
+            padding: EdgeInsets.fromLTRB(7, 15, 7, 10),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -34,7 +34,7 @@ class ContactPage extends StatelessWidget {
                 ),
                 Row(
                   children: [
-                    Text("Email : ", style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text("Email  : ", style: TextStyle(fontWeight: FontWeight.bold)),
                     Text("mdyvani@gmail.com"),
                   ],
                 ),
