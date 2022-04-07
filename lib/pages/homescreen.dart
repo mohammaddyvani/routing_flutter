@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.only(bottom: 10.0),
-              RaisedButton(
+              child: RaisedButton(
                 onPressed: () {
                   Navigator.pushNamed(context, '/contact');
                 },
