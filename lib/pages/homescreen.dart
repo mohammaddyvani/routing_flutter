@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(
+            Padding(
               padding: const EdgeInsets.only(bottom: 10.0),
               child: RaisedButton(
                 onPressed: () {
@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
                 child: Text("ABOUT"),
               ),
             ),
-            Container(
+            Padding(
               padding: const EdgeInsets.only(bottom: 10.0),
               child: RaisedButton(
                 onPressed: () {
@@ -30,11 +30,13 @@ class HomePage extends StatelessWidget {
                 child: Text("PORTOFOLIO"),
               ),
             ),
-            RaisedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/contact');
-              },
-              child: Text("CONTACT"),
+            Padding(
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/contact');
+                },
+                child: Text("CONTACT"),
+              ),
             ),
           ],
         ),
