@@ -29,7 +29,7 @@ class ContactPage extends StatelessWidget {
                 Row(
                   children: [
                     Text("Alamat : ", style: TextStyle(fontWeight: FontWeight.bold)),
-                    Text("Dusun Krajan, RT/RW 003/006, Desa Tembokrejo, Kecamatan Muncar, Banyuwangi"),
+                    Text("Muncar, Banyuwangi"),
                   ],
                 ),
                 Row(
